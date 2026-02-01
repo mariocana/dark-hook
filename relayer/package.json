@@ -1,0 +1,28 @@
+{
+  "name": "unishield-relayer-agent",
+  "version": "1.0.0",
+  "description": "UniShield Agentic Finance - Autonomous Relayer Agent",
+  "main": "relayer.js",
+  "scripts": {
+    "start": "node relayer.js",
+    "dev": "node --watch relayer.js",
+    "test": "node -e \"const {RelayerAgent} = require('./relayer'); console.log('✓ Relayer loads OK');\""
+  },
+  "dependencies": {
+    "ethers": "^6.9.0"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "ethereum",
+    "defi",
+    "relayer",
+    "mev",
+    "uniswap",
+    "agentic-finance"
+  ],
+  "author": "UniShield Team",
+  "license": "MIT"
+}
